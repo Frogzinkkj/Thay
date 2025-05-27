@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jogo da Palavra Escondida - Meu Blog de Aventuras</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f4f1ea;
+      color: #333333;
+    }
+    .font-lora {
+      font-family: 'Lora', serif;
+    }
+    .article-hero-bg {
+      background-image: url('../img/PalavraEscondida/hero.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+    header {
+      background-color: #ffedd5; /* Fundo suave para o cabeçalho */
+    }
+    .article-content {
+      background-color: #ffffff;
+      border: 2px solid #fbbf24; /* Borda amarela */
+    }
+    .btn-primary {
+      background-color: #f59e0b; /* Botão laranja */
+      color: #ffffff;
+    }
+    .btn-primary:hover {
+      background-color: #d97706; /* Botão laranja escuro ao passar o mouse */
+    }
+    footer {
+      background-color: #1f2937; /* Fundo escuro para o rodapé */
+      color: #f3f4f6; /* Texto claro no rodapé */
+    }
+  </style>
+</head>
+<body class="text-gray-800">
+
+  <header class="article-hero-bg h-72 md:h-80 flex flex-col items-center justify-center text-white shadow-lg">
+    <div class="bg-amber-700 bg-opacity-70 p-6 md:p-10 rounded-lg text-center">
+      <h1 class="font-lora text-3xl md:text-5xl font-bold mb-2">Jogo da Palavra Escondida</h1>
+      <p class="text-md md:text-lg font-light">Uma atividade lúdica e educativa.</p>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-4 py-8 md:py-12">
+    <article class="article-content bg-white p-6 md:p-10 rounded-xl shadow-xl max-w-3xl mx-auto">
+      <div class="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+        <p class="mb-4">
+          <strong>Desenvolvimento da Atividade:</strong> A atividade será realizada de forma individual e sequencial, ou seja, uma criança por vez participa.
+        </p>
+        <ol class="list-decimal list-inside mb-4">
+          <li>A criança escolhe uma das fichas com o ponto de interrogação.</li>
+          <li>Em seguida, ela abre a ficha e realiza a leitura da palavra escrita no interior.</li>
+          <li>Proponho um questionamento desafiador: “Será que conseguimos formar outra palavra dentro da mesma palavra?”</li>
+          <li>A criança deve refletir e tentar formar uma nova palavra, que será escrita no espaço interno da mesma ficha, abaixo da palavra original.</li>
+          <li>O processo se repete com as demais crianças, respeitando o tempo de cada uma, promovendo a participação ativa e a valorização do pensamento individual.</li>
+        </ol>
+        <h2 class="font-lora text-2xl md:text-3xl font-semibold text-amber-700 mt-6 mb-3">Objetivos da Atividade:</h2>
+        <ul class="list-disc list-inside mb-4">
+          <li>Desenvolver a leitura e a consciência fonológica;</li>
+          <li>Estimular a criatividade e o raciocínio linguístico;</li>
+          <li>Trabalhar com a formação de palavras e a percepção da estrutura das mesmas;</li>
+          <li>Promover a oralidade e a troca de conhecimentos entre os colegas;</li>
+          <li>Incentivar a autonomia e o protagonismo infantil.</li>
+        </ul>
+        <p class="mb-4">
+          Essa atividade lúdica é uma forma criativa e interativa de promover a aprendizagem da língua escrita, permitindo que as crianças se envolvam ativamente no processo de construção do conhecimento, ao mesmo tempo em que se divertem. Além disso, valoriza o pensamento crítico e a observação de possibilidades linguísticas, aspectos essenciais no processo de alfabetização.
+        </p>
+        <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+          <img src="/img/PalavraEscondida/cover.jpg" alt="Exemplo 5" class="rounded-lg shadow-md">
+          <img src="/img/PalavraEscondida/img2.jpg" alt="Exemplo 2" class="rounded-lg shadow-md">
+          <img src="/img/PalavraEscondida/img1.jpg" alt="Exemplo 1" class="rounded-lg shadow-md">
+          <img src="/img/PalavraEscondida/img3.jpg" alt="Exemplo 3" class="rounded-lg shadow-md">
+          <img src="/img/PalavraEscondida/img4.jpg" alt="Exemplo 4" class="rounded-lg shadow-md">
+        </div>
+
+        <div class="mt-8">
+          <h2 class="font-lora text-2xl md:text-3xl font-semibold text-amber-700 mb-4">Vídeo Demonstrativo:</h2>
+          <div class="aspect-w-16 aspect-h-9 md:aspect-w-16 md:aspect-h-7">
+            <iframe class="rounded-lg shadow-md w-full h-96" src="/img/PalavraEscondida/midia1.mp4" title="Vídeo Demonstrativo" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-8 text-center">
+        <a href="/index.html" class="btn-primary font-semibold py-3 px-6 rounded-lg shadow-md transition duration-300">
+          &larr; Voltar ao Blog
+        </a>
+      </div>
+    </article>
+  </main>
+
+  <footer class="bg-amber-800 text-amber-100 py-10 mt-12 md:mt-16">
+    <div class="container mx-auto px-4 text-center">
+      <p class="font-lora text-2xl mb-2">Conecte-se Comigo</p>
+      <div class="flex justify-center space-x-6 mb-6">
+        <a href="https://www.instagram.com/ta_yanasantos/" class="hover:text-white transition">Instagram</a>
+      </div>
+      <p class="text-sm">&copy; 2025 Meu Blog Academico. Todos os direitos reservados.</p>
+    </div>
+  </footer>

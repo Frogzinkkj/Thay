@@ -1,0 +1,7 @@
+<style>
+    .hero-bg {
+        background-image: url('https://placehold.co/1200x400/a0522d/ffffff?text=Minha+Aventura+Começa+Aqui&font=lora');
+        background-size: cover;
+        background-position: center;
+    }
+</style>

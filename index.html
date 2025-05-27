@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O ensino de língua portuguesa e ludicidade</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/indexStyle.css">
+    <link rel="stylesheet" href="js/indexScript.js">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="text-gray-800">
+
+    <!-- Barra de navegação -->
+    <header>
+        <nav class="bg-amber-800 text-white px-4 py-4 shadow-md">
+            <div class="container mx-auto flex items-center justify-between">
+              <a href="#" class="text-2xl font-lora font-bold">Blog Thay</a>
+              <ul class="hidden md:flex space-x-8 font-semibold">
+                <li><a href="#home" class="hover:text-amber-300 transition">Início</a></li>
+                <li><a href="#biografia" class="hover:text-amber-300 transition">Sobre</a></li>
+                <li><a href="#artigos" class="hover:text-amber-300 transition">Posts</a></li>
+                <li><a href="#contato" class="hover:text-amber-300 transition">Contato</a></li>
+              </ul>
+              <button class="md:hidden focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+                  viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
+              </button>
+            </div>
+          </nav>
+          
+    </header>
+
+    <header class="hero-bg h-80 md:h-96 flex flex-col items-center justify-center text-white shadow-lg">
+        <div class="bg-black bg-opacity-40 p-6 md:p-10 rounded-lg text-center">
+            <h1 class="font-lora text-4xl md:text-6xl font-bold mb-2">O Ensino de língua portuguesa e Ludicidade</h1>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8 md:py-16">
+
+        <section id="biografia" class="mb-12 md:mb-20 bg-white p-6 md:p-10 rounded-xl shadow-xl flex flex-col md:flex-row items-center gap-6 md:gap-10">
+            <div class="w-40 h-40 md:w-56 md:h-56 rounded-full overflow-hidden shadow-md flex-shrink-0">
+                <img src="/img/image.png" alt="Foto do Autor do Blog" class="w-full h-full object-cover">
+            </div>
+            <div class="text-center md:text-left">
+                <h2 class="font-lora text-3xl md:text-4xl font-bold text-amber-700 mb-4">Sobre Mim</h2>
+                <p class="text-gray-700 leading-relaxed mb-3">
+                  Sou Tayana dos Santos Barreto, estudante do 4º semestre da instituição UNEF.
+                  
+                </p>
+                <p class="text-gray-700 leading-relaxed">
+                  Tenho grande interesse pela língua portuguesa e pelas possibilidades de tornar o ensino mais lúdico e significativo para as crianças.
+                  Este blog foi criado como parte de uma atividade proposta pela professora Nívia Rodrigues, com o objetivo de explorar a ludicidade no processo de ensino-aprendizagem. Realizei três atividades lúdicas com crianças de séries diferentes, buscando estimular a leitura, a escrita, a imaginação e o prazer pelo aprendizado de forma leve, divertida e educativa.
+                </p>
+                <a href="#contato" class="mt-6 inline-block bg-amber-600 hover:bg-amber-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition duration-300">
+                    Entre em Contato
+                </a>
+            </div>
+        </section>
+
+        <div class="text-center mb-10 md:mb-12">
+            <h2 class="font-lora text-3xl md:text-4xl font-bold text-amber-700">Últimas Tarefas</h2>
+            <p class="text-gray-600 mt-2">Explore a forma que realizo minhas tarefas!</p>
+        </div>
+
+        <section id="artigos" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+            <div class="article-card bg-white rounded-xl shadow-xl overflow-hidden flex flex-col group">
+                <div class="h-56 overflow-hidden">
+                    <img src="/img/Stop/cover.jpg" alt="Imagem do Artigo 1" class="first-article">
+                </div>
+                <div class="p-6 flex flex-col flex-grow">
+                    <h3 class="font-lora text-2xl font-semibold text-amber-700 mb-3">Stop Divertido de Língua Portuguesa!</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4 flex-grow">
+                        Na atividade “Stop Divertido”, a proposta é que eu diga uma letra do alfabeto e, a partir dela, a criança complete uma lista preenchendo os itens solicitados com palavras que comecem...
+                    </p>
+                    <a href="/pages/artigo1.html" class="mt-auto self-start bg-amber-600 hover:bg-amber-700 text-white font-semibold py-2 px-5 rounded-lg shadow-md transition duration-300">
+                        Leia Mais
+                    </a>
+                </div>
+            </div>
+
+            <div class="article-card bg-white rounded-xl shadow-xl overflow-hidden flex flex-col group">
+                <div class="h-60 overflow-hidden">
+                    <img src="/img/PalavraEscondida/cover.jpg" alt="Imagem do Artigo 2" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6 flex flex-col flex-grow">
+                    <h3 class="font-lora text-2xl font-semibold text-amber-700 mb-3">Jogo da Palavra Escondida</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4 flex-grow">
+                        Desenvolvimento da Atividade: A atividade será realizada de forma individual e sequencial, ou seja, uma criança por vez participa...
+                    </p>
+                    <a href="/pages/artigo2.html" class="mt-auto self-start bg-amber-600 hover:bg-amber-700 text-white font-semibold py-2 px-5 rounded-lg shadow-md transition duration-300">
+                        Leia Mais
+                    </a>
+                </div>
+            </div>
+
+            <div class="article-card bg-white rounded-xl shadow-xl overflow-hidden flex flex-col group">
+                <div class="h-60 overflow-hidden">
+                    <img src="/img/Historia Coletiva/cover.jpg" alt="Imagem do Artigo 3" class="img-artigo">
+                </div>
+                <div class="p-6 flex flex-col flex-grow">
+                    <h3 class="font-lora text-2xl font-semibold text-amber-700 mb-3">História Coletiva</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4 flex-grow">
+                        A atividade "História Coletiva" é uma dinâmica lúdica e interativa que tem como objetivo estimular a imaginação, a criatividade, a oralidade, a escuta atenta e o desenvolvimento da linguagem das crianças.
+                    </p>
+                    <a href="/pages/artigo3.html" class="mt-auto self-start bg-amber-600 hover:bg-amber-700 text-white font-semibold py-2 px-5 rounded-lg shadow-md transition duration-300">
+                        Leia Mais
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="contato" class="bg-amber-800 text-amber-100 py-10 mt-16 md:mt-24">
+        <div class="container mx-auto px-4 text-center">
+            <p class="font-lora text-2xl mb-2">Conecte-se Comigo</p>
+            <div class="flex justify-center space-x-6 mb-6">
+                <a href="https://www.instagram.com/ta_yanasantos/" class="hover:text-white transition duration-300">Instagram</a>
+            </div>
+            <p class="text-sm">&copy; <span id="currentYear"></span> 2025 Meu Blog Academico. Todos os direitos reservados.</p>
+            
+        </div>
+    </footer>

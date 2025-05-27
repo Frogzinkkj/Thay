@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f4f1ea;
+}
+
+.font-lora {
+  font-family: 'Lora', serif;
+}
+
+.article-hero-bg {
+  background-image: url('https://placehold.co/1200x400/a0522d/a0522d');
+  background-size: cover;
+  background-position: center;
+}

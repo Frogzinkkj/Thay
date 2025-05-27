@@ -1,0 +1,41 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f4f1ea;
+}
+
+.font-lora {
+  font-family: 'Lora', serif;
+}
+
+.hero-bg {
+  background-image: url('https://placehold.co/1200x400/a0522d/a0522d');
+  background-size: cover;
+  background-position: center;
+}
+
+.article-card img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.article-card:hover img {
+  transform: scale(1.05);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f1ea; /* Um tom de bege claro para o fundo */
+}
+.font-lora {
+    font-family: 'Lora', serif;
+}
+.hero-bg {
+
+    background-size: cover;
+    background-position: center;
+}
+.article-card img {
+    transition: transform 0.3s ease-in-out;
+}
+.article-card:hover img {
+    transform: scale(1.05);
+}
